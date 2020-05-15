@@ -10,10 +10,10 @@ After loading in the data and schema into PostgreSQL, the following queries will
 
 _1. List the following details of each employee: employee number, last name, first name, gender, and salary._   
 
-SELECT employees.emp_no, employees.last_name, employees.first_name, employees.gender, salaries.salary
-FROM employees
-JOIN salaries
-ON salaries.emp_no = employees.emp_no;
+  *SELECT employees.emp_no, employees.last_name, employees.first_name, employees.gender, salaries.salary
+  *FROM employees
+  *JOIN salaries
+  *ON salaries.emp_no = employees.emp_no;
 
 
 _2. List employees who were hired in 1986._   
