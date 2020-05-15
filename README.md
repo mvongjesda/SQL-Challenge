@@ -5,7 +5,7 @@ This project utilizes SQL and the PostgreSQL database to organize and query empl
 Initial data consisted of 6 different csv's of employee data.  The data was organized and primary/foreign keys inputted into the web application Quick Database Diagrams to create the ERD below to visualize the table relationships, and to generate the related schema.
 
 ![](images/QuickDBD-ERD.png)
-
+------------------------------------------------------------------------------------------------------------------------------
 After loading in the data and schema into PostgreSQL, the following queries will output the answers to the following questions:
 
 __--1. List the following details of each employee: employee number, last name, first name, gender, and salary.__   
