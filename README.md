@@ -8,7 +8,7 @@ Initial data consisted of 6 different csv's of employee data.  The data was orga
 
 ------------------------------------------------------------------------------------------------------------------------------  
 
-After loading in the data and schema into PostgreSQL, the following queries will output the answers to the following questions:
+After loading in the data and schema into PostgreSQL, the following queries will output the answers to the proposed questions:
 
 __--1. List the following details of each employee: employee number, last name, first name, gender, and salary.__   
 
