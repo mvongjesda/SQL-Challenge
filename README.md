@@ -8,15 +8,12 @@ Initial data consisted of 6 different csv's of employee data.  The data was orga
 
 After loading in the data and schema into PostgreSQL, the following queries will output the answers to the following questions:
 
-_--1. List the following details of each employee: employee number, last name, first name, gender, and salary._   
+__ --1. List the following details of each employee: employee number, last name, first name, gender, and salary.__   
 
-  *SELECT employees.emp_no, employees.last_name, employees.first_name, employees.gender, salaries.salary  
-  
-  *FROM employees  
-  
-  *JOIN salaries  
-  
-  *ON salaries.emp_no = employees.emp_no;
+  SELECT employees.emp_no, employees.last_name, employees.first_name, employees.gender, salaries.salary  
+  FROM employees  
+  JOIN salaries  
+  ON salaries.emp_no = employees.emp_no;
 
 
 _--2. List employees who were hired in 1986._   
